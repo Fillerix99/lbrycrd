@@ -10,10 +10,6 @@ matrix:
           dist: trusty
           language: c
           env: TARGET=windows
-        - os: osx
-          language: c
-          osx_image: xcode7.3
-          env: TARGET=osx
 
 cache:
   apt: true
